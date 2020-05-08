@@ -8,22 +8,26 @@ body{
 
 /*---------------header----*/
 
+.icon-format{
+    font-size: 25px;
+}
+
 .cover-img{
 
     background: url("../images/cover-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-right: 0;
-    margin-right: 0;
-    min-height: 540px;
+    max-height: 640px;
     width: 100%;
+    text-align: center;
+    
 }
 
 .cover-img h1{
 
     text-align: center;
-    padding-top: 270px;
+    padding-top: 75px;
     text-transform: uppercase;
     font-family: 'Exo 2', sans-serif;
     color: #fafafa;
@@ -32,6 +36,42 @@ body{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.icon-format{
-    font-size: 20px;
+.logo img{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    
+}
+
+/*-----------Music----------*/
+
+div h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: #fafafa;
+    letter-spacing: 4px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+div h3{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: #fafafa;
+    letter-spacing: 4px;
+    font-size: 28px;  
+}
+
+.music-container{
+    height: 300px;
+    width: 75%;
+    background: red;
+    margin: 30px auto;
+    
+}
+iframe{
+    padding-top: 10px;
+    text-align: center;
 }
