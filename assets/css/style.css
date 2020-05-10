@@ -69,9 +69,25 @@ div h3{
     width: 75%;
     background: red;
     margin: 30px auto;
+    border: dotted red 5px;
+    overflow: hidden;
+
     
 }
 iframe{
     padding-top: 10px;
     text-align: center;
+}
+
+.tour-dates{
+    width: 80%;
+    margin: 50px auto;
+    font-family: 'Exo 2', sans-serif;
+    color: #fafafa;
+}
+/*----------------Bio-----*/
+
+div p{
+    font-family: 'Exo 2', sans-serif;
+    color: #fafafa;  
 }
