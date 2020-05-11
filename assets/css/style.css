@@ -67,9 +67,9 @@ div h3{
 .music-container{
     height: 350px;
     width: 75%;
-    background: red;
+    background: #5C62AA;
     margin: 30px auto;
-    border: dotted red 5px;
+    border: solid #5C62AA 5px;
     overflow: hidden;
 
     
@@ -85,18 +85,26 @@ iframe{
     font-family: 'Exo 2', sans-serif;
     color: #fafafa;
 }
+
+.bg-th{
+    background-color: #5C62AA;
+}
 /*----------------Bio-----*/
 
 div p{
     font-family: 'Exo 2', sans-serif;
-    color: #fafafa;  
+    color: #fafafa; 
+    padding-top: 25px;
+    text-align: center; 
 }
 
-.artist-photo{
-    background: url("../images/acies-img.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    height:100%;
+
+.acies-img{
+
+    border: solid red 4px;
     border-radius: 50%;
-    float: right;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
 }
+
