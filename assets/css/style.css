@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
 
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
 
 body{
     background-color: #000;
+    
 }
 
 /*---------------header----*/
@@ -12,17 +18,19 @@ body{
     font-size: 25px;
 }
 
-.cover-img{
-
+ .cover-img{
     background: url("../images/cover-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 540px;
+    height: 750px;
     width: 100%;
     text-align: center;
-    
-}
+                
+            }
+
+
+
 
 .cover-img h1{
 
@@ -40,6 +48,7 @@ body{
     width: 250px;
     height: 250px;
     text-align: center;
+    padding-top: 50px;
     
 }
 
@@ -47,7 +56,7 @@ body{
 
 div h2{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
     font-family: 'Exo 2', sans-serif;
     color: #fafafa;
     letter-spacing: 4px;
@@ -57,7 +66,7 @@ div h2{
 
 div h3{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
     font-family: 'Exo 2', sans-serif;
     color: #fafafa;
     letter-spacing: 4px;
@@ -65,10 +74,16 @@ div h3{
 }
 
 .music-container{
+
+    padding-top: 2em;
+}
+
+
+.ep-container{
     height: 350px;
     width: 75%;
     background: #5C62AA;
-    margin: 30px auto;
+    margin: 50px auto;
     border: solid #5C62AA 5px;
     overflow: hidden;
 
@@ -91,32 +106,27 @@ iframe{
 }
 /*----------------Bio-----*/
 
-div p{
+
+.bio-card{
+    width: 70%;
     font-family: 'Exo 2', sans-serif;
-    color: #fafafa; 
-    padding-top: 25px;
-    text-align: center; 
+    color: #fafafa;
+    
 }
+#bio{
 
-
-.acies-img{
-
-    border: solid red 4px;
-    border-radius: 25%;
-    height: 150px;
-    width: 150px;
-    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 /*------------Gallery-------*/
 
 .gallery-item{
-    padding: 10px 10px;
+    padding: 50px 10px;
 }
 
 .gallery-container{
 
-    padding-top: 25px;
+    padding-top: 100px;
 }
 
 .gallery-container h2{
@@ -133,4 +143,5 @@ footer{
     width: 100%;
     margin-top: 50px;
     background-color: #343a40;
+    font-size: 25px;
 }
