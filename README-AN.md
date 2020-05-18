@@ -2,7 +2,7 @@
 
 This website represents virtual home for my friend and artist Acies Noctis. Since Acies so far didn't have any official website I decided to create one with his help and feedback.
 Acies Noctis is musican I wanted website to be focused on music first, and help him geting it out there. i belive the artis deserves strog and simple online presence and my aim with this website is to create it.
-
+-  **[LiveSite](https://wertzhog.github.io/acies-noctis_ms1/)**  ------- **[Repo](https://github.com/Wertzhog/acies-noctis_ms1.git)**
 ## UX
 In my UX design I was following 5 plains of UXD.
 1. Strategy plane
@@ -79,14 +79,109 @@ In my UX design I was following 5 plains of UXD.
 
 ## Testing
 
+* **Automated testing**
+
+    * I used Chrome audit to to do automated testing. Here are results:
+            ![Chrome audit results](https://github.com/Wertzhog/acies-noctis_ms1/blob/0bd7887930483bd084616d16ca91e76224dac6b0/assets/images/mockup%26chrome-audit/chrome%20audit.png)
+
+* **Manual Testing**
+
+    * **Desktop**
+       
+        * **Google Chome**: everything is working good. Page loads, and all of the page features are working.
+
+        * **Mozilla Firefox**: everything is working good. Page loads, and all of the page features are working.
+
+        * **Microsoft Edge**: everything is working good. Page loads, and all of the page features are working.
+
+    * **Mobile**
+
+        * **Chome Dev Tools**
+
+            * tested with Chome Dev tools for all available devices (from Moto G4 to iPad),
+                webpage works well. It is responsive as intended, no weird page deformations.
+
+        **Real world testing:**
+
+        * **Huawei P20Pro** - site loads good. It is responsive as intended. All of the features are working.
+
+        * **Samsung Galaxy S9** - site loads good. It is responsive as intended. All of the features are working.
+
+        * **HTC Desire 630** - site loads good. It is responsive as intended. All of the features are working.
+
+        * **Samsung Galaxy A5** - site loads good. It is responsive as intended. All of the features are working.
+
+        * **Xiaomi mi 9t** - site loads good. It is responsive as intended. All of the features are working.
+
+    * **Testing User Stories Scenarios**
+
+        * As a fan of electronic music I want to listen to newly released music.
+                - click Music link in navbar
+                - Once in Music section hit play on integrated player from Sound Cloud
+        * As a fan of electronic music I want to find out where I can see artist perform live.
+                - click Tour link in navbar
+                - once in Tour section, I see that there are dates and option to buy tickets
+                -link to buy tickets works 
+        * As a fan of electronic music I want to buy/download music and support the artist.
+                - in navbar I click  Soundcloud/Bandcamp links/icons
+                - links woring, I am redirected to said pages. (**NOTICE** only links to Soundcloud and Facebook redirect you to artist's profile, rest of the links will be updated later on when respective pages are created)
+        * As record label owner I want to contact artist for colaboration/publishing deals.
+                - In navbar I can find links to artist's social networks
+                - links are working
+                - In footer I can find email contact
+                - link is working
+        * As venue owner I want to contact artist for live performance.
+                - In navbar I can find links to artist's social networks
+                - links are working
+                - In footer I can find email contact
+                - link is working
+        * As fan of electronic music I want to visit artist's Soundcloud/Bancamp page to listen to more of his music.
+                - in navbar I click  Soundcloud/Bandcamp links/icons
+                - links woring, I am redirected to said pages. (**NOTICE** only links to Soundcloud and Facebook redirect you to artist's profile, rest of the links will be updated later on when respective pages are created)
+        * As a fan I want to visit artist's social media to see what is he like in private life.
+                - in navbar I can find links to social media profiles
+                -links are working
+
+## Deployment
+
+ **[GitHub](https://github.com/)** - is used to host code and files for this project. Project has only one branch(master). Deployed version is most current version of repository.
+
+ * **GitHub pages** was used to deploy this site.
+
+ **How to run this project locally**
+- **To clone this project from GitHub:** 
+([Source](https://github.com/Edb83/penny-for-your-thoughts/blob/master/README.md#testing))
+
+* Under the repository name, click "Clone or download".
+* In the Clone with HTTPs section, copy the clone URL for the repository.
+* In your local IDE open Git Bash.
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type git clone, and then paste the URL you copied in Step 3.
+* Press Enter. Your local clone will be created.
 
 
+## Credits
+
+* Logo used on callout section was downloaded from [game-icons.net](https://game-icons.net/).
+
+* Images from Bio and Gallery are obtained from Acies Noctis which he got from their respective owners.
+
+* Callout image was designed by Acies Noctis.
+
+* Design of website was inspired by [Thespecials.com(https://www.thespecials.com/)] , [soundgardenworld.com/(https://soundgardenworld.com/)]
+
+**Acknowledgements**
+
+ * I want to thank my mentor Precious Ijege for his guidence and help.
+
+* Slack community for their constructive critisism.
+
+* My girlfriend and my friends on their support and help with testing. You are the best! :kissing_heart:
 
 
+#### This project is for educational purposes and hopefully in near future it will be fully deployed.
 
-
-
-
+**[LiveSite](https://wertzhog.github.io/acies-noctis_ms1/)**  ------- **[Repo](https://github.com/Wertzhog/acies-noctis_ms1.git)**
 
 
 
