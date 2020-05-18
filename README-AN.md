@@ -70,6 +70,8 @@ In my UX design I was following 5 plains of UXD.
 
 * **[Google Fonts](https://fonts.google.com/)** - used for fonts on entire website.
 
+* **[Figma](https://www.figma.com/)** - used for mockup.
+
 * **[GitPod](https://www.gitpod.io/)** -  used as IDE for this project.
 
 * **[GitHub](https://github.com/)** - used for version control, hosting project files and live website via GitHub Pages.
