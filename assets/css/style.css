@@ -250,7 +250,7 @@ iframe{
     padding: 10px 10px;
     overflow: hidden;
     object-fit: cover;
-    border: #343a40  solid 2px;
+    border: white solid 2px;
 }
 
 .gallery-container{
