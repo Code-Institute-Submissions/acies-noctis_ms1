@@ -2,7 +2,7 @@
 
 This website represents virtual home for my friend and artist Acies Noctis. Since Acies so far didn't have any official website I decided to create one with his help and feedback.
 Acies Noctis is musican I wanted website to be focused on music first, and help him geting it out there. i belive the artis deserves strog and simple online presence and my aim with this website is to create it.
--  **[LiveSite](https://wertzhog.github.io/acies-noctis_ms1/)**  ------- **[Repo](https://github.com/Wertzhog/acies-noctis_ms1.git)**
+-  **[Live Site](https://wertzhog.github.io/acies-noctis_ms1/)**
 ## UX
 In my UX design I was following 5 plains of UXD.
 1. Strategy plane
@@ -58,11 +58,11 @@ In my UX design I was following 5 plains of UXD.
 
 ## Technologies Used
 
-* **HTML/HTML5** - it is used for basic structure of website.
+* **[HTML/HTML5](https://en.wikipedia.org/wiki/HTML5)** - it is used for basic structure of website.
 
-* **CSS/CSS3** - used for styling of website.
+* **[CSS/CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** - used for styling of website.
 
-* **Javascript/[JQuery](https://jquery.com/)/[PopperJS](https://popper.js.org/)** - used for navbar toggler to function properly.
+* **Javascript/[JQuery](https://jquery.com/)/[PopperJS](https://popper.js.org/)** - integrated with Bootstrap, used for navbar toggler to function properly.
 
 * **[Bootstrap 4](https://getbootstrap.com/)** - used for styling and adding responsivness across whole website. Every section of website from navbar to footer has some Bootstrap styling.
 
@@ -118,37 +118,47 @@ In my UX design I was following 5 plains of UXD.
     * **Testing User Stories Scenarios**
 
         * As a fan of electronic music I want to listen to newly released music.
-                - click Music link in navbar
-                - Once in Music section hit play on integrated player from Sound Cloud
+            - click Music link in navbar
+            - Once in Music section hit play on integrated player from Sound Cloud
+
         * As a fan of electronic music I want to find out where I can see artist perform live.
-                - click Tour link in navbar
-                - once in Tour section, I see that there are dates and option to buy tickets
-                -link to buy tickets works 
+            - click Tour link in navbar
+            - once in Tour section, I see that there are dates and option to buy tickets
+            - link to buy tickets works
+
         * As a fan of electronic music I want to buy/download music and support the artist.
-                - in navbar I click  Soundcloud/Bandcamp links/icons
-                - links woring, I am redirected to said pages. (**NOTICE** only links to Soundcloud and Facebook redirect you to artist's profile, rest of the links will be updated later on when respective pages are created)
+            - in navbar I click  Soundcloud/Bandcamp links/icons
+            - links woring, I am redirected to said pages. (**NOTICE** only links to Soundcloud and Facebook redirect you to artist's profile, rest of the links will be updated later on when respective pages are created)
+        
         * As record label owner I want to contact artist for colaboration/publishing deals.
-                - In navbar I can find links to artist's social networks
-                - links are working
-                - In footer I can find email contact
-                - link is working
+            - In navbar I can find links to artist's social networks
+            - links are working
+            - In footer I can find email contact
+            - link is working
+
         * As venue owner I want to contact artist for live performance.
-                - In navbar I can find links to artist's social networks
-                - links are working
-                - In footer I can find email contact
-                - link is working
+            - In navbar I can find links to artist's social networks
+            - links are working
+            - In footer I can find email contact
+            - link is working
+
         * As fan of electronic music I want to visit artist's Soundcloud/Bancamp page to listen to more of his music.
-                - in navbar I click  Soundcloud/Bandcamp links/icons
-                - links woring, I am redirected to said pages. (**NOTICE** only links to Soundcloud and Facebook redirect you to artist's profile, rest of the links will be updated later on when respective pages are created)
+            - in navbar I click  Soundcloud/Bandcamp links/icons
+            - links woring, I am redirected to said pages. (**NOTICE** only links to Soundcloud and Facebook redirect you to artist's profile, rest of the links will be updated later on when respective pages are created)
+        
         * As a fan I want to visit artist's social media to see what is he like in private life.
-                - in navbar I can find links to social media profiles
-                -links are working
+            - in navbar I can find links to social media profiles
+            - links are working
 
 ## Deployment
 
  **[GitHub](https://github.com/)** - is used to host code and files for this project. Project has only one branch(master). Deployed version is most current version of repository.
 
  * **GitHub pages** was used to deploy this site.
+    - Go to repository master branch.
+    - Press Settings button on right.
+    - Scroll down to Github Pages section.
+    - Choose Master branch and link to hosted site should apear on top of the section.
 
  **How to run this project locally**
 - **To clone this project from GitHub:** 
@@ -164,13 +174,21 @@ In my UX design I was following 5 plains of UXD.
 
 ## Credits
 
+### Content
+
+* All of the textual contend of site was written by me.
+
+### Media
+
+* Music in the music section was authored by Acies Noctis and he gave me premission to use it.
+
 * Logo used on callout section was downloaded from [game-icons.net](https://game-icons.net/).
 
 * Images from Bio and Gallery are obtained from Acies Noctis which he got from their respective owners.
 
 * Callout image was designed by Acies Noctis.
 
-* Design of website was inspired by [Thespecials.com(https://www.thespecials.com/)] , [soundgardenworld.com/(https://soundgardenworld.com/)]
+* Design of website was inspired by [Thespecials.com](https://www.thespecials.com/) , [soundgardenworld.com](https://soundgardenworld.com/)
 
 **Acknowledgements**
 
@@ -183,7 +201,7 @@ In my UX design I was following 5 plains of UXD.
 
 #### This project is for educational purposes and hopefully in near future it will be fully deployed.
 
-**[LiveSite](https://wertzhog.github.io/acies-noctis_ms1/)**  ------- **[Repo](https://github.com/Wertzhog/acies-noctis_ms1.git)**
+**[Live Site](https://wertzhog.github.io/acies-noctis_ms1/)**
 
 
 

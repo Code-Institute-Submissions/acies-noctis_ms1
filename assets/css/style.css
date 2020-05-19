@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
-
 *{
     margin:0;
     padding:0;
@@ -9,15 +8,13 @@
 
 body{
     background-color: #000;
-    
 }
 
-/*---------------header----*/
+/*---------------Header---------*/
 
 .icon-format{
     font-size: 20px;
 }
-
 
 .cover-img{
     background: url("../images/cover-1.jpg");
@@ -26,13 +23,10 @@ body{
     background-size: cover;
     height: 750px;
     width: 100%;
-    text-align: center;
-                
-  }
-
+    text-align: center;            
+}
 
 .cover-img h1{
-
     text-align: center;
     padding-top: 150px;
     text-transform: uppercase;
@@ -47,10 +41,10 @@ body{
     width:350px;
     height: 350px;
     text-align: center;
-    padding-top: 50px;
-    
+    padding-top: 50px; 
 }
-/*-----------------Hover.css-----*/
+
+/*---------------Hover.css---------*/
 
 .hvr-sweep-to-top {
   display: inline-block;
@@ -64,6 +58,7 @@ body{
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .hvr-sweep-to-top:before {
   content: "";
   position: absolute;
@@ -84,19 +79,17 @@ body{
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
   color: white;
 }
+
 .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
 
-
-
-
-
-/*-----------Music&Tour----------*/
+/*---------------Music&Tour---------*/
 
 div h2{
     text-align: center;
@@ -105,9 +98,7 @@ div h2{
     color: #fafafa;
     letter-spacing: 4px;
     font-size: 36px;
-    text-transform: uppercase;
-    
-    
+    text-transform: uppercase;  
 }
 
 div p{
@@ -121,7 +112,9 @@ div p{
 
     padding: 25px 0;
 }
-/*-------------------Animista  text animation-----*/
+
+/*---------------Animista text animation---------*/
+
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
@@ -139,6 +132,7 @@ div p{
     opacity: 1;
   }
 }
+
 @keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
@@ -169,6 +163,7 @@ div p{
     opacity: 1;
   }
 }
+
 @keyframes scale-in-ver-center {
   0% {
     -webkit-transform: scaleY(0);
@@ -192,10 +187,8 @@ div h3{
 }
 
 .music-container{
-
     padding-top: 2em;
 }
-
 
 .ep-container{
     height: 350px;
@@ -203,23 +196,18 @@ div h3{
     margin: 50px auto;
     border: solid white 5px;
     overflow: hidden;
-    padding: 15px 0;
-
-
-    
+    padding: 15px 0;  
 }
 @media screen and (max-width: 450px){
 
-        .ep-container{
+    .ep-container{
     height: 350px;
     width: 75%;
     margin: 50px auto;
     border: solid white 5px;
     overflow: hidden;
-        }
+    }
     
-}
-
 }
 
 iframe{
@@ -234,21 +222,18 @@ iframe{
     color: #fafafa;
 }
 
-/*----------------About-----*/
-
+/*---------------About---------*/
 
 .bio-card{
     width: 90%;
     font-family: 'Exo 2', sans-serif;
     color: #fafafa;
-    
 }
 #bio{
-
     padding-bottom: 50px;
 }
 
-/*------------Gallery-------*/
+/*---------------Gallery---------*/
 
 .gallery-item{
     max-height: 300px;
@@ -278,7 +263,7 @@ iframe{
     font-size: 20px;
 }
 
-/*---------Footer-------*/
+/*---------------Footer---------*/
 
 footer{
     max-height: 200px;
@@ -293,13 +278,11 @@ footer{
     color: #fafafa;
     font-size: 16px;
     padding-top: 20px;
-    
 }
 
 .tc-privacy a{
     text-decoration: none;
     color: #fafafa;
-
 }
 
 .copy-r {
@@ -307,4 +290,4 @@ footer{
     color: #fafafa;
     font-size: 16px;
     padding-top: 20px;
-     }
+}
