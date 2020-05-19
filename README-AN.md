@@ -92,6 +92,10 @@ In my UX design I was following 5 plains of UXD.
     * I used Chrome audit to to do automated testing. Here are results:
             [Chrome audit results](https://github.com/Wertzhog/acies-noctis_ms1/blob/master/Testing/chrome%20audit.png)
 
+    * **[CSS Validator](http://jigsaw.w3.org/css-validator/)** - gave me 30 errors al related to Bootstrap.
+
+    * **[HTML Validator](https://validator.w3.org/)** - gave me errors related to iframe element which I imported from Soundcloud website.
+
 * **Manual Testing**
 
     * **Desktop**
@@ -198,7 +202,7 @@ In my UX design I was following 5 plains of UXD.
 
 **Acknowledgements**
 
- * I want to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidance and help.
+* I want to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidance and help.
 
 * Slack community of Code Institute for their constructive criticism.
 
