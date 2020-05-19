@@ -127,6 +127,8 @@ In my UX design I was following 5 plains of UXD.
 
         * **Xiaomi mi 9t** - site loads good. It is responsive as intended. All of the features are working.
 
+        * **Bugs**
+            - I had issue testing on Iphone 5 later in my development. Bootstrap default `*{border-sizing:border box}` was creating problems in whole flow DOM and I couldn't resolve issue without losing great part of my work.
     * **Testing User Stories Scenarios**
 
         * As a fan of electronic music I want to listen to newly released music.
