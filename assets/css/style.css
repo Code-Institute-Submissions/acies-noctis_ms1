@@ -290,9 +290,10 @@ footer{
     padding-top: 20px;
 }
 
-.tc-privacy a{
+.contact a{
     text-decoration: none;
     color: #fafafa;
+    padding-top: 20px;
 }
 
 .copy-r {
